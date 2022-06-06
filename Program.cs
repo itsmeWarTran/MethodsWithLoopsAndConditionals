@@ -6,8 +6,8 @@ namespace MethodsWithLoopsAndConditionals
     {
         static void Main(string[] args)
         {
-            //thousand();
-            //byThree();
+            thousand();
+            byThree();
             Console.WriteLine(isEqual(5, 5));
             Console.WriteLine(evenOrOdd(33));
             Console.WriteLine(posOrNeg(32));

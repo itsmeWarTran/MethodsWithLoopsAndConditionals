@@ -15,6 +15,12 @@ namespace MethodsWithLoopsAndConditionals
             Console.WriteLine("Enter your age to see if you can vote or not");
             int age = int.Parse(Console.ReadLine());
             Console.WriteLine(canVote(age));
+            
+            Console.WriteLine("Enter a number between -10 to 10");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine(inRange(num));
+
+            tableOf12();
         }
         public static void thousand()//thousand
         { 
@@ -66,6 +72,23 @@ namespace MethodsWithLoopsAndConditionals
                 return true;
             }
             return false;
+        }
+
+        public static Boolean inRange(int num)
+        {
+            if(num > -10 && num < 10)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static void tableOf12()
+        {
+            for(int x = 0; x <= 12; x++)
+            {
+                Console.WriteLine(x * 12);
+            }
         }
     }
 }

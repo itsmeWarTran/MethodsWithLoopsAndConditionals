@@ -14,7 +14,7 @@
         "outputPath": "/Users/itsmewar_tran/Desktop/repo/C# 27/MethodsWithLoopsAndConditionals/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/itsmewar_tran/.nuget/NuGet/NuGet.Config"
+          "/Users/itsmewar_tran/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
